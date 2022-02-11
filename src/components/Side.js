@@ -1,7 +1,11 @@
-import React from "react";
+import React from 'react'
 
-function Side(props) {
-  return <div>{props.sides.join(", ")}</div>;
+const Side = (props) => {
+  return (
+    <div>
+      { props.sides.join(", ") }
+    </div>
+  )
 }
 
-export default Side;
+export default Side
